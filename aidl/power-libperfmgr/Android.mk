@@ -56,6 +56,7 @@ LOCAL_INIT_RC := android.hardware.power-service.xiaomi-libperfmgr.rc
 LOCAL_MODULE_TAGS := optional
 LOCAL_VENDOR_MODULE := true
 LOCAL_VINTF_FRAGMENTS := android.hardware.power-service.xiaomi.xml
+LOCAL_MODULE_PATH := $(TARGET_OUT_PRODUCT)/vendor_overlay/$(PRODUCT_TARGET_VNDK_VERSION)/bin
 
 include $(BUILD_EXECUTABLE)
 
